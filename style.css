@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'mandali';
+}
+
+.hero-section{
+    background: url(/image/Ellipse\ 14.png);
+    background-repeat: no-repeat;
+    padding: 15px 30px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+   width: 95%;
+   margin: 0 auto;
+   /* border: 2px solid red; */
+}
+.act {
+    display: inline-block;
+    width: 80px;
+    text-align: center;
+    background-color: rgb(16, 82, 111);
+    color: white;
+    border-radius: 10px;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.logo img{
+    width: 70px;
+}
+.logo-words{
+    margin-left: -15px;  
+}
+.logo-words span{
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+}
+.logo-words h1{
+    font-size: 28px;
+    width: 50%;
+    line-height: 10px;
+    margin: 0;
+    padding: 0;
+}
+.navigate {
+display: flex;
+flex-direction: row;
+gap: 50px;
+
+}
+.navigate li a:not(.act){
+    color: rgb(5, 74, 104);
+
+}
+.navigate li a{
+    text-decoration: none;
+   
+}
+.navigate li{
+    list-style-type: none;
+}
+.hero-text{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* padding: 15px 13px; */
+    width: 100%;
+    margin: auto;
+    justify-content: space-between;
+    border: 2px solid red;
+    margin-top: 30px;
+}
+.hero-text1{
+    border: 2px solid blue;
+    width: 50%;
+    padding: 40px;
+    line-height: 48px;
+    margin-top: 40px;
+}
+.hero-text1 h2{
+font-size: 48px;
+}
+.hero-text1 p{
+    line-height: 18px;
+    margin-top: 20px;
+}
+.hero-text-image{
+    border: 2px solid yellow;
+    width: 50%;
+}
+.hero-text-image img{
+    /* width: 300px; */
+
+}
+.hero-text1 button{
+    width: 110px;
+    padding: 7px;
+    margin-top: 20px;
+    background-color: rgb(5, 74, 104);
+    color: white;
+    border-radius: 7px;
+}
+.hero-section h3{
+    text-align: center;
+}
+.five-layout{
+    border: 2px solid blue;
+    padding:0 50px;
+    background-color: rgb(4, 59, 84);
+    width: 100%;
+}
+.three{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+
+}
+.asset{
+    border: 2px solid yellow; 
+    padding: 40px;
+    width: 33%;
+    background-color: rgb(60, 114, 141);
+    color: white;
+    border-radius: 20px;
+}
+.asset button{
+    width: 100%;
+    padding: 7px;
+    margin-top: 20px;
+    background-color: rgb(5, 74, 104);
+    color: white;
+    border-radius: 5px;
+}
+.two{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 40px;
+    margin-top: 50px;
+    
+
+}
