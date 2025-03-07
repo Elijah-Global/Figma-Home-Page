@@ -77,11 +77,11 @@ gap: 50px;
     width: 100%;
     margin: auto;
     justify-content: space-between;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin-top: 30px;
 }
 .hero-text1{
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     width: 50%;
     padding: 40px;
     line-height: 48px;
@@ -95,7 +95,7 @@ font-size: 48px;
     margin-top: 20px;
 }
 .hero-text-image{
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
     width: 50%;
 }
 .hero-text-image img{
@@ -114,23 +114,21 @@ font-size: 48px;
     text-align: center;
 }
 .five-layout{
-    border: 2px solid blue;
     padding:0 50px;
     background-color: rgb(4, 59, 84);
     width: 100%;
 }
 .three{
-    /* border: 2px solid red; */
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
 
 }
 .asset{
-    border: 2px solid yellow; 
+    /* border: 2px solid yellow;  */
     padding: 40px;
-    width: 33%;
+    width: 30%;
+    margin: 10px 10px;
     background-color: rgb(60, 114, 141);
     color: white;
     border-radius: 20px;
@@ -142,13 +140,20 @@ font-size: 48px;
     background-color: rgb(5, 74, 104);
     color: white;
     border-radius: 5px;
-}
-.two{
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    gap: 40px;
-    margin-top: 50px;
-    
-
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.about{
+    /* border: 2px solid blue;  */
+   /* padding: 30px 50px; */
+}
+.about h1{
+text-align: center;
+}
+.about p{
+    /* border: 2px solid yellow;  */
+    width: 80%;
+    margin: auto;
 }
