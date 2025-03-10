@@ -234,10 +234,35 @@ a{
     color: white;
 }
 
+.nav-bar {
+    display: none;
+}
 
 
 
 @media screen and (max-width: 480px) {
+    .menu{
+        display: block;
+    }
+    .nav-bar{
+        display: block;
+    }
+    
+    .navigats{
+        display: none;
+      
+    }
+    .nav-bar:hover .navigats {
+        display: flex; 
+         flex-direction: column-reverse;
+    }
+    .navigats li {
+        list-style-type: none;
+    }
+    .navigats li a{
+        color: #000;
+        text-decoration:  none;
+    }
     .hero-section{
         /* border: 1px solid red; */
         width: 100%;
